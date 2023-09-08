@@ -1,6 +1,7 @@
 import './App.css';
 import Counter from './../Counter/Counter';
 import SmartCounter from '../SmartCounter/SmartCounter';
+import IFoodCounter from '../IFoodCounter/IFoodCounter';
 
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
       <br/>
       <h3>contador unitário</h3>
       <SmartCounter/>
+      <br/>
+      <h1>IFood Contador</h1>
+      <IFoodCounter/>
     </>
   );
 }
